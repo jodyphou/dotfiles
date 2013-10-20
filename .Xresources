@@ -1,1 +1,9 @@
-/home/trevor/.Xresources
+! xterm ----------------------------
+xterm*faceName:		Terminus:style=Regular:size=10
+xterm*dynamicColors:	true
+xterm*background:	#222222
+xterm*foreground:	#FFFFFF
+
+! xcursor -------------------------
+Xcursor.theme:		Vanilla-DMZ-AA
+Xcursor.size:		22
