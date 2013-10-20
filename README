@@ -1,1 +1,3 @@
 Here are some really simple dotfiles I use to get a system "usable" quickly.
+
+The i3/config file uses Macbook 2009 keybindings for brightness, audio and disk eject.
