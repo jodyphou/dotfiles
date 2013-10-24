@@ -19,7 +19,5 @@ local NO_COLOR="\[\033[0m\]"
 shopt -s checkwinsize
 fortune
 PS1="$GRAY[$BROWN\u$GRAY][$BROWN\W$GRAY]$LIGHT_BLUE$ $NO_COLOR"
-
-#PS1='\033[1;30m\][\[\e[0;33m\]\u\033[1;30m\]]\[\033[1;30m\][\[\033[0m\]\W\[\033[1;30m\]]\[\033[1;34m\]$\[\033[0m\] '
 }
 prom
