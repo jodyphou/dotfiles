@@ -30,6 +30,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 # start terminal with no title
 for_window [title="xterm"] border 1pixel
 for_window [title="Chromium"] border 1pixel
+for_window [class="[.]*"] floating enable
 
 # brightness
 bindcode 232 exec xbacklight -dec 10

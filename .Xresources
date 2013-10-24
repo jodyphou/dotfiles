@@ -1,8 +1,8 @@
 ! xterm ----------------------------
 xterm*faceName:		Terminus:style=Regular:size=10
 xterm*dynamicColors:	true
-xterm*background:	#222222
-xterm*foreground:	#FFFFFF
+xterm*background:	black
+xterm*foreground:	green
 
 ! xcursor -------------------------
 Xcursor.theme:		Vanilla-DMZ-AA
