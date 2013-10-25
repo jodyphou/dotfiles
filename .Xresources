@@ -1,8 +1,10 @@
 ! xterm ----------------------------
 xterm*faceName:		Terminus:style=Regular:size=10
 xterm*dynamicColors:	true
-xterm*background:	black
+xterm*background:	#222222
 xterm*foreground:	green
+xterm*locale:		true
+xterm*selectToClipboard:true
 
 ! xcursor -------------------------
 Xcursor.theme:		Vanilla-DMZ-AA

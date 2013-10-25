@@ -18,19 +18,19 @@ exec --no-startup-id sh ~/.fehbg
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
-# font pango:Terminus 11px
- font pango:Unispace:style:Regular 8
+# font pango:Unispace 11px
+font pango:Terminus 9
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec xterm 
 
 # start terminal with no title
 for_window [title="xterm"] border 1pixel
 for_window [title="Chromium"] border 1pixel
-for_window [class="[.]*"] floating enable
+#for_window [class="[.]*"] floating enable
 
 # brightness
 bindcode 232 exec xbacklight -dec 10
